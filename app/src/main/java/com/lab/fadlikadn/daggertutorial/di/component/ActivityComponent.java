@@ -1,8 +1,8 @@
-package com.lab.fadlikadn.daggertutorial.component;
+package com.lab.fadlikadn.daggertutorial.di.component;
 
 import com.lab.fadlikadn.daggertutorial.MainActivity;
-import com.lab.fadlikadn.daggertutorial.annotation.PerActivity;
-import com.lab.fadlikadn.daggertutorial.module.ActivityModule;
+import com.lab.fadlikadn.daggertutorial.di.annotation.PerActivity;
+import com.lab.fadlikadn.daggertutorial.di.module.ActivityModule;
 
 import dagger.Component;
 

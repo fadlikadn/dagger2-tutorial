@@ -1,12 +1,12 @@
-package com.lab.fadlikadn.daggertutorial.manager;
+package com.lab.fadlikadn.daggertutorial.data;
 
 import android.content.Context;
 import android.content.res.Resources;
 
-import com.lab.fadlikadn.daggertutorial.annotation.ApplicationContext;
-import com.lab.fadlikadn.daggertutorial.helper.DbHelper;
-import com.lab.fadlikadn.daggertutorial.helper.SharedPrefsHelper;
-import com.lab.fadlikadn.daggertutorial.model.User;
+import com.lab.fadlikadn.daggertutorial.di.annotation.ApplicationContext;
+import com.lab.fadlikadn.daggertutorial.data.helper.DbHelper;
+import com.lab.fadlikadn.daggertutorial.data.helper.SharedPrefsHelper;
+import com.lab.fadlikadn.daggertutorial.data.model.User;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

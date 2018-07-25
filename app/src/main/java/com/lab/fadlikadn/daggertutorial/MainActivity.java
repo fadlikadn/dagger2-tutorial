@@ -6,11 +6,11 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.lab.fadlikadn.daggertutorial.application.DemoApplication;
-import com.lab.fadlikadn.daggertutorial.component.ActivityComponent;
-import com.lab.fadlikadn.daggertutorial.component.DaggerActivityComponent;
-import com.lab.fadlikadn.daggertutorial.manager.DataManager;
-import com.lab.fadlikadn.daggertutorial.model.User;
-import com.lab.fadlikadn.daggertutorial.module.ActivityModule;
+import com.lab.fadlikadn.daggertutorial.di.component.ActivityComponent;
+import com.lab.fadlikadn.daggertutorial.di.component.DaggerActivityComponent;
+import com.lab.fadlikadn.daggertutorial.data.DataManager;
+import com.lab.fadlikadn.daggertutorial.data.model.User;
+import com.lab.fadlikadn.daggertutorial.di.module.ActivityModule;
 
 import javax.inject.Inject;
 

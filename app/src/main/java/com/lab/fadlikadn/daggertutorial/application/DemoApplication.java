@@ -3,10 +3,10 @@ package com.lab.fadlikadn.daggertutorial.application;
 import android.app.Application;
 import android.content.Context;
 
-import com.lab.fadlikadn.daggertutorial.component.ApplicationComponent;
-import com.lab.fadlikadn.daggertutorial.component.DaggerApplicationComponent;
-import com.lab.fadlikadn.daggertutorial.manager.DataManager;
-import com.lab.fadlikadn.daggertutorial.module.ApplicationModule;
+import com.lab.fadlikadn.daggertutorial.di.component.ApplicationComponent;
+import com.lab.fadlikadn.daggertutorial.di.component.DaggerApplicationComponent;
+import com.lab.fadlikadn.daggertutorial.data.DataManager;
+import com.lab.fadlikadn.daggertutorial.di.module.ApplicationModule;
 
 import javax.inject.Inject;
 

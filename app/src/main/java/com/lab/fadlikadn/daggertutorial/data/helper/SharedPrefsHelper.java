@@ -1,4 +1,4 @@
-package com.lab.fadlikadn.daggertutorial.helper;
+package com.lab.fadlikadn.daggertutorial.data.helper;
 
 import android.content.SharedPreferences;
 

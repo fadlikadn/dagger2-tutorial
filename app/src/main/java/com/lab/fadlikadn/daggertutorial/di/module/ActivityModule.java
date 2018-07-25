@@ -1,9 +1,9 @@
-package com.lab.fadlikadn.daggertutorial.module;
+package com.lab.fadlikadn.daggertutorial.di.module;
 
 import android.app.Activity;
 import android.content.Context;
 
-import com.lab.fadlikadn.daggertutorial.annotation.ActivityContext;
+import com.lab.fadlikadn.daggertutorial.di.annotation.ActivityContext;
 
 import dagger.Module;
 import dagger.Provides;

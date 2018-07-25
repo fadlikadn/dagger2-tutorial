@@ -1,4 +1,4 @@
-package com.lab.fadlikadn.daggertutorial.model;
+package com.lab.fadlikadn.daggertutorial.data.model;
 
 /**
  * This class is used to bind the DB table data

@@ -1,11 +1,11 @@
-package com.lab.fadlikadn.daggertutorial.module;
+package com.lab.fadlikadn.daggertutorial.di.module;
 
 import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.lab.fadlikadn.daggertutorial.annotation.ApplicationContext;
-import com.lab.fadlikadn.daggertutorial.annotation.DatabaseInfo;
+import com.lab.fadlikadn.daggertutorial.di.annotation.ApplicationContext;
+import com.lab.fadlikadn.daggertutorial.di.annotation.DatabaseInfo;
 
 import dagger.Module;
 import dagger.Provides;
